@@ -1,0 +1,83 @@
+/*
+Colors used
+Light Shades (Porcelain): #F1F3F4;
+Light Accent (Manatee): #9498A8;
+Primary Color (San Marino): #4866AD;
+Dark Accent (Kimberly): #7f7CA5;
+Dark Shades (Bastille): #201928;
+ */
+
+ body {
+  font-family: 'Lato', sans-serif;
+  font-size: 16px; /* Sets the font size to 16px */
+  line-height: 1.6; /* Sets the line-height to 1.6 */
+}
+
+h1 {
+  font-size: 30px;
+}
+
+h2 {
+  font-size: 24px;
+}
+
+h3 {
+  font-size: 18px;
+}
+<link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
+
+div {
+  padding: 10px 5px 15px 5px; /* 10px top, 5px right, 15px bottom, 5px left */
+  margin: 10px; /* Adds a 10px outer spacing to all sides*/
+}
+
+
+
+a {
+  color: #4866AD;
+}
+
+a:hover {
+  text-decoration: none; /* No underlining when hovering over a link */
+}
+
+a:visited {
+  /* visited link */
+  color: #7f7CA5;
+}
+
+a:active {
+  /* selected link */
+  color: #9498A8;
+}
+
+a:hover,
+a:focus {
+  text-decoration: none;
+}
+
+
+button {
+  /* overwrite browser defaults */
+  border: none; /* reset the border */
+  font-family: inherit; /* takes the font from the outer container */
+
+  /* style button */
+  background-color: #4866AD;
+  color: white !important;
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 3px;
+  border-bottom: 2px solid #03474c; /* width of the border, type, color */
+  transition: 0.2s opacity;
+}
+
+button:hover,
+button:focus {
+  cursor: pointer; /* let's the mouse appear as hand when hovering over the button */
+  opacity: 0.8; /* Reduces the opactiy of the button to 80% */
+}
+
+.button-secondary {
+  background-color: #489c79;
+}
